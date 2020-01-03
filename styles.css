@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #D65353;
+}
+/*------- header/profile styling */
+#profile-card-grouper {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+#profile-card {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    min-width: 22em;
+}
+#me-panel {
+    background-color: #28364A;
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#writing-panel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #013A40; */
+}
+#writing-panel h5 {
+    color: #ffffff;
+    background-color: #28364a;
+    margin-top: .4em;
+    margin-bottom: .5em;
+    font-family: "Courier Prime";
+}
+#writing-list {
+    /* list-style: none; */
+    font-family: "Courier Prime";
+    width: 80%;
+    margin-left: 1.5em;
+}
+#writing-list li {
+    background-color: #feedd0;
+    margin: 0;
+    color: #28364a;
+    margin-bottom: .4em;
+    padding: 0;
+}
+#me-panel img {
+    border-radius: 50%;
+    margin-top: .8em;
+    margin-bottom: 0.5em;
+    background-color: black;
+    width: 5em;
+    height: 5em;
+}
+#me-panel h2 {
+    color: #28364a;
+    font-family: "Alata";
+    background-color: #feedd0;
+    width: 100%;
+    margin: .2em;
+    text-align: center;
+}
+#me-panel h4 {
+    color: #D65353;
+    font-family: "Alata";
+}
+/*------- projects styling */
+#projects-grouper {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    box-sizing: content-box;
+}
+.project-card {
+    
+}
+#project-header {
+    color: #F7C45F;
+    font-size: 7em;
+    position: absolute;
+    left: 0;
+}
+.project-title {
+    color: #feedd0;
+    margin-top: 8em;
+    font-size: 2em;
+    display: inline-block;
+    font-family: "Alata";
+}
+.project-blurb {
+    color: #feedd0;
+    font-family: "Alata";
+}
