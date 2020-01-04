@@ -6,6 +6,24 @@
 body {
     background-color: #D65353;
 }
+a {
+    text-decoration: none;
+    color: #28364a;
+}
+button {
+    height: 2em;
+    font-size: 1em;
+    background-color: #d65353;
+    border: 1px solid #28364a;
+    border-radius: 4px;
+    font-family: "Alata";
+    cursor: pointer;
+    margin: 0 auto;
+    width: 10em;
+    color: #28364a;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
 /*------- header/profile styling */
 #profile-card-grouper {
     width: 100vw;
@@ -18,37 +36,40 @@ body {
     display: flex;
     flex-direction: row-reverse;
     min-width: 22em;
+    margin-right: 4em;
 }
 #me-panel {
-    background-color: #28364A;
-    height: 30vh;
+    /* background-color: #28364A; */
+    /* height: 30vh; */
+    max-height: 11.05em;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+#me-panel h4 {
+    color: #28364a;
+    font-size: 1.1em;
+    font-family: "Alata";
+}
 #writing-panel {
     width: 50%;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     /* background-color: #013A40; */
 }
 #writing-panel h5 {
-    color: #ffffff;
-    background-color: #28364a;
+    color: #dfe3e8;
+    /* background-color: #28364a; */
     margin-top: .4em;
     margin-bottom: .5em;
-    font-family: "Courier Prime";
+    font-family: "Arial";
 }
 #writing-list {
-    /* list-style: none; */
+    list-style: none;
     font-family: "Courier Prime";
-    width: 80%;
-    margin-left: 1.5em;
 }
 #writing-list li {
-    background-color: #feedd0;
+    background-color: #f7c45f;
     margin: 0;
     color: #28364a;
     margin-bottom: .4em;
@@ -58,46 +79,210 @@ body {
     border-radius: 50%;
     margin-top: .8em;
     margin-bottom: 0.5em;
-    background-color: black;
+    background-color: #d65353;
     width: 5em;
     height: 5em;
+    border: 4px solid #c38f8f;
+    box-sizing: content-box;
 }
 #me-panel h2 {
     color: #28364a;
     font-family: "Alata";
-    background-color: #feedd0;
+    background-color: #f7c45f;
     width: 100%;
     margin: .2em;
     text-align: center;
 }
-#me-panel h4 {
-    color: #D65353;
-    font-family: "Alata";
-}
 /*------- projects styling */
 #projects-grouper {
     width: 100%;
-    height: 100vh;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     box-sizing: content-box;
 }
 .project-card {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3em;
+    min-height: 10em;
+}
+.left-project-tile {
+    /* border: 1px solid red; */
+    width: 40%;
+}
+.right-project-tile {
+    /* border: 1px solid green; */
+    width: 40%;
+    min-width: 18em;
+}
+.right-project-tile h3 {
+    color: #feedd0;
+    margin-bottom: 0.3em;
+    font-size: 1em;
+    font-family: "Alata";
+    border-bottom: 2px solid #f7c45f;
+}
+.right-project-tile p {
+    color: #feedd0;
+    font-size: .8em;
+    font-family: "Courier Prime", monospace;
+}
+.right-project-links {
+    text-decoration: none;
+    padding: .5em;
+    margin-top: .4em;
+    text-align: center;
+}
+.right-project-links a {
+    padding: .37em;
+    border: 1px solid #28364a;
+    border-radius: 4px;
+    background-color: #d65353;
+    font-family: "Alata";
+}
+.project-description {
+    background-color: #c38f8f;
+    padding: .2em;
+    font-weight: bold;
+    font-family: "Alata";
+    color: #1c2633;
+    border-radius: 4px;
 }
 #project-header {
     color: #F7C45F;
+    background-color: #3a3a3a;
+    width: 2em;
     font-size: 7em;
-    position: absolute;
     left: 0;
+    font-family: "arial";
 }
 .project-title {
-    color: #feedd0;
-    margin-top: 8em;
-    font-size: 2em;
+    color: #28364a;
+    font-size: 1.2em;
+    padding: .4em;
+    background-color: #f7c45f;
     display: inline-block;
     font-family: "Alata";
+    border-radius: .2em;
 }
 .project-blurb {
     color: #feedd0;
     font-family: "Alata";
+    font-size: 1.1em;
+    margin: .2em;
 }
+
+/*------- right tile of projects styling */
+.technologies-list p {
+    border: 1px solid #525252;
+    padding: .17em;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 1em;
+    margin: .1em;
+    color: white;
+}
+#s1 {
+    background-color: #0b8a8a;
+}
+#s2 {
+    background-color: #F26A4B;
+}
+.javascript-p {
+    background-color: #F23D3D;
+}
+.jquery-p {
+    background-color: #777676;
+}
+#s5 {
+    background-color: coral;
+}
+#s6 {
+    color: white;
+    background-color: #0b8a8a;
+}
+#s7 {background-color: #0b8a8a;}
+#s8 {
+    background-color: #F23D3D;
+}
+#s9 {
+    color: white;
+    background-color: gray;
+}
+#s10 {
+    background-color: #F23D3D;
+}
+#s13 {
+    background-color: #F26A4B;
+}
+
+/*------- project screenshots styling */
+.slide-up, .slide-down {
+    max-height: 0;
+    overflow-y: hidden;
+    -webkit-transition: max-height 0.5s ease-in-out;
+    -moz-transition: max-height 0.5s ease-in-out;
+    -o-transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out;
+}
+.slide-down {
+    max-height: 87em;
+}
+#proj1-screenshots, #proj2-screenshots {
+    background-color: #c38f8f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#proj1-screenshots img, #proj2-screenshots img {
+    width: 47%;
+    min-width: 18em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+/*------- call to action styling */
+#cta-group {
+    border: 1px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+#cta-group h3 {
+    font-size: 5em;
+    font-family: "Alata";
+    color: #3a3a3a;
+    background: linear-gradient(to left, #f7c45f 0%, #0b8a8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#cta-group h4 {
+    font-size: 4em;
+    font-family: "Alata";
+    color: #3a3a3a;
+    text-decoration: underline;
+}
+/*------- footer styling */
+footer {
+    display: flex;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    border: 1px solid #28364a;
+    margin: .2em;
+    height: 3em;
+    padding: 0.3em;
+    color: #28364a;
+    display: flex;
+    align-items: center;
+    font-family: "Alata";
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px)
