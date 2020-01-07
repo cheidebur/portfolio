@@ -27,6 +27,7 @@ button {
 /*------- header/profile styling */
 #profile-card-grouper {
     width: 100vw;
+    max-width:50em;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
@@ -96,6 +97,8 @@ button {
 /*------- projects styling */
 #projects-grouper {
     width: 100%;
+    max-width: 50em;
+    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
