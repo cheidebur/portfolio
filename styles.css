@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #53cad6;
+    background-color: #121d21;
 }
 a {
     text-decoration: none;
@@ -52,7 +52,7 @@ button {
     align-items: center;
 }
 #me-panel h4 {
-    color: #28364a;
+    color: #f7c45f;
     font-size: 1.1em;
     font-family: "Alata";
 }
