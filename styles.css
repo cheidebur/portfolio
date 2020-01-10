@@ -10,6 +10,9 @@ a {
     text-decoration: none;
     color: #28364a;
 }
+img {
+    max-width: 40em;
+}
 button {
     height: 2em;
     font-size: 1em;
@@ -188,6 +191,7 @@ button {
     margin: .1em;
     color: white;
 }
+/* yes I know this is a hot mess but I'm not sure what I'm going for here yet*/
 #s1 {
     background-color: #0b8a8a;
 }
@@ -253,7 +257,6 @@ button {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
 }
 #cta-group h3 {
@@ -261,6 +264,7 @@ button {
     font-family: "Alata";
     color: #3a3a3a;
     background: linear-gradient(to left, #f7c45f 0%, #0b8a8a 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -289,6 +293,7 @@ footer a {
     border-radius: 4px;
 }
 
+/* responsive styles/media queries */
 @media only screen and (max-width: 650px) {
     #project-header {
         font-size: 4em;

@@ -2,6 +2,8 @@ window.addEventListener("load", () => {
 
     console.log("we loaded");
 
+    //Once there are four expand buttons, I'm refactoring them into 1 function.
+    //3 is about my limit for the DRY principle at this point.
     const expandButton1 = document.getElementById("proj1-slide-button");
     expandButton1.addEventListener("click", () => {
         const slideMe = document.getElementById("proj1-slide-container");
@@ -13,6 +15,12 @@ window.addEventListener("load", () => {
     expandButton2.addEventListener("click", () => {
         const slideMe = document.getElementById("proj2-slide-container");
         slideDown(expandButton2, slideMe);
+    })
+
+    const expandButton3 = document.getElementById("proj3-slide-button");
+    expandButton3.addEventListener("click", () => {
+        const slideMe = document.getElementById("proj3-slide-container");
+        slideDown(expandButton3, slideMe);
     })
 
     function slideDown(expandButton, thisElement) {
