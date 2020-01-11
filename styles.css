@@ -11,7 +11,7 @@ a {
     color: #28364a;
 }
 img {
-    max-width: 40em;
+    max-width: 50em;
 }
 button {
     height: 2em;
@@ -43,8 +43,7 @@ button {
     margin-right: 2em;
 }
 #me-panel {
-    /* background-color: #28364A; */
-    /* height: 30vh; */
+    margin-bottom: 1.2em;
     max-height: 11.05em;
     width: 50%;
     display: flex;
