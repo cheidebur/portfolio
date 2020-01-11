@@ -8,7 +8,8 @@ body {
 }
 a {
     text-decoration: none;
-    color: #28364a;
+    color: #fff;
+    font-weight: normal;
 }
 img {
     max-width: 50em;
@@ -23,7 +24,7 @@ button {
     cursor: pointer;
     margin: 0 auto;
     width: 80%;
-    color: #28364a;
+    color: #fff;
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -54,6 +55,7 @@ button {
     color: #f7c45f;
     font-size: 1.1em;
     font-family: "Alata";
+    font-weight: normal;
 }
 #writing-panel {
     width: 50%;
@@ -128,6 +130,7 @@ button {
     font-size: 1em;
     font-family: "Alata";
     border-bottom: 2px solid #f7c45f;
+    font-weight: normal;
 }
 .right-project-tile p {
     color: #feedd0;
@@ -150,13 +153,12 @@ button {
 .project-description {
     background-color: #c38f8f;
     padding: .2em;
-    font-weight: bold;
     font-family: "Alata";
     color: #1c2633;
     border-radius: 4px;
 }
 #project-header {
-    color: #F7C45F;
+    color: #0B8A8A;
     background-color: #3a3a3a;
     width: 2em;
     font-size: 7em;
@@ -257,6 +259,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 2em;
 }
 #cta-group h3 {
     font-size: 5em;
@@ -279,10 +282,11 @@ footer {
     height: 5em;
     justify-content: center;
     align-items: center;
+    margin-top: 2em;
 }
 footer a {
     border: 1px solid #28364a;
-    margin: .2em;
+    margin: 1em;
     height: 3em;
     padding: 0.3em;
     color: #28364a;
