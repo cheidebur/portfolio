@@ -2,7 +2,6 @@
 
 # Welcome to my portfolio repo!
 
-I'm Chase, a web developer with 1.5 year's nonprofessional experience.
 
 ### Design principles
 
