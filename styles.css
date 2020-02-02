@@ -49,7 +49,7 @@ button {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 #me-panel h4 {
     color: #f7c45f;
@@ -160,7 +160,7 @@ button {
     color: #0B8A8A;
     background-color: #3a3a3a;
     width: 2em;
-    font-size: 7em;
+    font-size: 5em;
     margin-top: .1em;
     left: 0;
     font-family: "arial";
