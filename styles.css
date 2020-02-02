@@ -31,7 +31,7 @@ button {
 /*------- header/profile styling */
 #profile-card-grouper {
     width: 100vw;
-    max-width:50em;
+    max-width:80%;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
@@ -157,7 +157,7 @@ button {
     border-radius: 4px;
 }
 #project-header {
-    color: #0B8A8A;
+    color: #D65353;
     background-color: #3a3a3a;
     width: 2em;
     font-size: 5em;
