@@ -30,8 +30,7 @@ button {
 }
 /*------- header/profile styling */
 #profile-card-grouper {
-    width: 100vw;
-    max-width:80%;
+    width: 97%;
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
