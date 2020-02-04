@@ -195,7 +195,6 @@ button {
 }
 /* yes I know this is a hot mess but I'm not sure what I'm going for here yet*/
 #s1 {
-    background-color: #0b8a8a;
 }
 #s2 {
     background-color: #F26A4B;
@@ -211,9 +210,8 @@ button {
 }
 #s6 {
     color: white;
-    background-color: #0b8a8a;
 }
-#s7 {background-color: #0b8a8a;}
+#s7 {}
 #s8 {
     background-color: #F23D3D;
 }
