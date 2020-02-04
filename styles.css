@@ -51,7 +51,7 @@ button {
     align-items: flex-end;
 }
 #me-panel h4 {
-    color: #f7c45f;
+    color: #ffeecb;
     font-size: 1.1em;
     font-family: "Alata";
     font-weight: normal;
@@ -91,7 +91,7 @@ button {
 #me-panel h2 {
     color: #28364a;
     font-family: "Alata";
-    background-color: #f7c45f;
+    background-color: #ffeecb;
     width: 100%;
     margin: .2em;
     text-align: center;
@@ -171,7 +171,7 @@ button {
     color: #28364a;
     font-size: 1.2em;
     padding: .4em;
-    background-color: #f7c45f;
+    background-color: #ffeecb;
     display: inline-block;
     font-family: "Alata";
     border-radius: .2em;
