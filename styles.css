@@ -323,4 +323,8 @@ footer a {
     #cta-group h4 {
         font-size: 1em;
     }
+    #projects-grouper {
+        width: auto;
+        border: none;
+    }
 }
