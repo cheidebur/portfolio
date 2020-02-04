@@ -8,8 +8,8 @@ body {
 }
 a {
     text-decoration: none;
-    color: #fff;
-    font-weight: normal;
+    color: black;
+    font-weight: bold;
 }
 img {
     max-width: 50em;
@@ -146,10 +146,12 @@ button {
 }
 .right-project-links a {
     padding: .37em;
-    border: 1px solid #28364a;
+    border: 1px solid red;
     border-radius: 4px;
-    background-color: #d65353;
+    background-color: white;
     font-family: "Alata";
+    font-style: italic;
+    text-decoration: underline;
 }
 .project-description {
     background-color: #c38f8f;
